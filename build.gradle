@@ -1,0 +1,20 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+//用于设置驱动过程构建的代码
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        //声明使用maven仓库
+        jcenter()
+    }
+}
